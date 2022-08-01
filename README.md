@@ -21,7 +21,8 @@ The easiest way to use this code is via the GNU make build tool; the code can al
 - run 'make all_plots' to generate R estimates and plots with 7, 14, and 21-day sliding windows.
 - set variable "UNCERTAINSI" to TRUE if you want to reproduce figures in the manuscript (using a less-certain serial interval), or set to FALSE for faster runtime.
 - set variable "PERIODANALYSES" to TRUE to generate R estimates per lockdown level, or FALSE to skip this.
-- other variables (e.g. plot resolution or level of sampling for uncertain serial interval 
+- set variable "NCORES" to specify how many of your machine's cores you'd like to allocate to this task.
+- other variables (e.g. plot resolution or level of sampling for uncertain serial interval
 
 ### Using R without make:
 - Set up repository structure:

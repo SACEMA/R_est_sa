@@ -29,9 +29,6 @@ run_period_analyses  = .args[[5]] == "TRUE"
 
 pubpriv_sector <- "ALL" # not available in public release, sorry. variable kept for minor convenience
 
-n_imputations = 25
-n_split = 22
-
 n1_config = 25
 n2_config = 25
 
