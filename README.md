@@ -6,7 +6,7 @@ The easiest way to use this code is via the GNU make build tool; the code can al
 
 ### Download data
 
-- Time series data for running this code can be downloaded from: https://zenodo.org/record/6948468#.YueyU3ZBxhE.
+- Time series data for running this code can be downloaded from: https://zenodo.org/record/6948468.
 
 - Filenames include a province code. Each data file includes 25 imputated timeseries (see manuscript for description of imputation procedure).
 
