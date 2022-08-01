@@ -3,7 +3,6 @@ PERIODANALYSES := FALSE
 
 default: plots_7
 
-
 plots_%: Rt_hosp_% Rt_lab_% Rt_mort_%
 	Rscript plot_results.R $* ${PERIODANALYSES}
 

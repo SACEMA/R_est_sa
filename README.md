@@ -12,6 +12,8 @@ The easiest way to use this code is via the GNU make build tool; the code can al
 
 - Data files should be put into a folder named 'data'.
 
+- the R code provided runs out the box using the .RDS data files; .csv files are also provided
+
 ### Using make:
 - run 'make setup' to set up directory structure
 - run 'make' to generate R estimates and plots with 7-day sliding windows
